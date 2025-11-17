@@ -7,6 +7,5 @@ import Welcome from './Welcome.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
-    <Welcome></Welcome>
   </StrictMode>,
 )
