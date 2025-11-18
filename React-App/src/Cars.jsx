@@ -1,3 +1,5 @@
+import Virtus from './assets/virtus.jpg'
+
 function Cars(props){
     return (
         <div className="car">
@@ -7,5 +9,11 @@ function Cars(props){
         </div>
     );
 }
+
+Cars.defaultProps = {
+    name : "Hyundai",
+    image : Virtus,
+    desc : "This is a new car" 
+};
 
 export default Cars;
