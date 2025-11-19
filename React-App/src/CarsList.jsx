@@ -10,9 +10,9 @@ function CarsList(){
         {name : "Volkswagen", image : Virtus, desc : "This is the Volkswagen Virtus"},
     ];
 
-    let cars = carslist.map((car) => {
+    let cars = carslist.map((car, index) => {
         return(
-            <Cars name = {car.name} image = {car.image} desc = {car.desc}/>
+            <Cars key = {index} name = {car.name} image = {car.image} desc = {car.desc}/>
         );
     });
 
