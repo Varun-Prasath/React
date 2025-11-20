@@ -2,6 +2,7 @@ import Cars from './Cars'
 import Toyota from './assets/hyryder.jpeg'
 import Venue from './assets/venue.jpg'
 import Virtus from './assets/virtus.jpg'
+import { Link } from 'react-router-dom'
 
 function CarsList(){
     const carslist = [
@@ -19,6 +20,8 @@ function CarsList(){
     return(
         <>
             {cars}
+            <br />
+            <Link to={"/form"}>Form</Link>
         </>
     );
 }

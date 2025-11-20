@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import Welcome from './Welcome'
 import Counter from './Counter'
 import CarsList from './CarsList'
+import './App.css'
 import Form from './Form'
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
 
   return (
     <>
-    <Form />
+    
     </>
   );
 }
