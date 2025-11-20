@@ -1,0 +1,15 @@
+form{
+    background-color: beige;
+    color: black;
+    padding: 32px;
+    margin: 16px;
+    text-align: center;
+}
+.card{
+    background-color: burlywood;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 250px;
+    margin-top: 20px;
+}
