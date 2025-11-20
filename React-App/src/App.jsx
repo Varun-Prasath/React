@@ -6,13 +6,13 @@ import Counter from './Counter'
 import CarsList from './CarsList'
 import './App.css'
 import Form from './Form'
+import Home from './home'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-    
+      <Home />
     </>
   );
 }
